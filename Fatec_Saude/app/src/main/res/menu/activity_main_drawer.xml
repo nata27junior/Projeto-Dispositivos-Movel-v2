@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hospar"
+            android:icon="@drawable/ic_place_red_24dp"
+            android:title="Hospital Particular" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_place_yellow_24dp"
+            android:title="Hospital" />
+        <item
+            android:id="@+id/nav_ubs"
+            android:icon="@drawable/ic_place_green_24dp"
+            android:title="UBS" />
+
+        <item
+            android:id="@+id/nav_clinica"
+            android:icon="@drawable/ic_place_blue_24dp"
+            android:title="Clínica" />
+        <item
+            android:id="@+id/nav_geral"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Todos" />
+    </group>
+
+
+
+</menu>
